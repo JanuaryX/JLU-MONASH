@@ -1,0 +1,4 @@
+config Mysql, load data
+Library comparison by tag, clean data and using word embedding. Learning the principle of word2vec. Find the similar word.
+Try to read the body of Q&A, divide the sentence in a certain way.
+Learning the code
