@@ -1,0 +1,244 @@
+﻿1.定义类：
+python is a widely used programming language
+python supports multiple programming paradigms including object-oriented imperative and functional programming or procedural styles
+python can be used for server-side web-development but also for building desktop applications
+python 2.x is the legacy version though it still sees widespread use
+python 3.x makes a set of backwards-incompatible changes which aim to reduce feature duplication
+list is a particular type of iterable but it is not the only one that exists in python
+use of functools.partial allows you to partially apply the relevant parameters to these functions for convenience
+serialisation you can provide a function that operates on objects before they are serialised like so de-serialisation there are various hooks that are handled by the json functions such as object_hook and parse_float
+python 3 receives new development and new features
+a tuple is a sequence of values
+developers should follow the pep257 - docstring conventions guidelines
+python can handle many different types of databases
+there is no switch statement in python as a language design choice
+an object of a class with the mixin foo will also be an instance of foo and isinstance instance foo will return true
+the data access module arcpy.da has only been available since arcgis 10.1 for desktop
+list comprehensions were outlined in pep 202 and introduced in python 2.0
+up until python 3.4 came out base64 encoding and decoding functions only worked with bytes or bytearray types
+language used python 2.7 download link library used pycrypto download link pycryptoplus download link library installation pycrypto unzip the file
+after that write python setup.py install make sure python environment is set properly in windows os pycryptoplus same as the last library
+public is exporting public key from previously generated private key
+------------------------------------------------------------------------------------------------------------------------------------------------------
+python is a high-level dynamic interpreted programming language
+it is characterized by its readable flexible syntax and its powerful standard library
+its design principles are outlined in the zen of python pep20 . currently there are two major release branches of python which have some significant differences
+python 2.x is the legacy version although it still sees widespread use
+python 3.x makes a set of backwards-incompatible changes which aim to reduce feature duplication
+a professional object-oriented language
+the operator builtin library provides very efficient functions if the input implements implement arithmetic operators __add__ __mul__ etc. product of all elements in the sequence import operator from functools import reduce reduce operator.mul list range 1 10 362880 ------- sum of all elements in the sequence although possible the sum of all elements in a sequence can be calculated using operator.add reduce operator.add list range 1 100 4950 you should use the faster sum sum -function if your sequence contains only numerical elements sum list range 1 100 4950 or string.join str.join if you want to concatenate strings .join a b c abc
+python 3.x version | release date --- | --- 3.4.4 | 2015-12-21 3.5.1 | 2015-12-07 3.5.0 | 2015-09-13 3.4.3 | 2015-02-25 3.4.2 | 2014-10-13 3.3.6 | 2014-10-12 3.2.6 | 2014-10-12 3.4.1 | 2014-05-19 3.4.0 | 2014-03-17 3.3.5 | 2014-03-09 3.3.4 | 2014-02-09 3.3.3 | 2013-11-17 3.3.2 | 2013-05-15 3.2.5 | 2013-05-15 3.3.1 | 2013-04-06 3.2.4 | 2013-04-06 3.3.0 | 2012-09-29 3.2.3 | 2012-04-10 3.1.5 | 2012-04-09 3.2.2 | 2011-09-03 3.2.1 | 2011-07-09 3.1.4 | 2011-06-11 3.2.0 | 2011-02-20 3.1.3 | 2010-11-27 3.1.2 | 2010-03-20 3.1.1 | 2009-08-17 3.1.0 | 2009-06-26 3.0.1 | 2009-02-13 3.0.0 | 2008-12-03 python 2.x version | release date --- | --- 2.7.12 | 2016-06-25 2.7.11 | 2015-12-05 2.7.10 | 2015-05-23 2.7.9 | 2014-12-10 2.7.8 | 2014-07-02 2.7.7 | 2014-06-01 2.7.6 | 2013-11-10 2.6.9 | 2013-10-29 2.7.5 | 2013-05-12 2.7.4 | 2013-04-06 2.6.8 | 2012-04-10 2.7.3 | 2012-04-09 2.7.2 | 2011-06-11 2.6.7 | 2011-06-03 2.5.6 | 2011-05-26 2.7.1 | 2010-11-27 2.6.6 | 2010-08-24 2.7.0 | 2010-07-03 2.6.5 | 2010-03-18 2.5.5 | 2010-01-31 2.6.4 | 2009-10-26 2.6.3 | 2009-10-02 2.6.2 | 2009-04-14 2.5.4 | 2008-12-23 2.5.3 | 2008-12-19 2.4.6 | 2008-12-19 2.6.1 | 2008-12-04 2.6.0 | 2008-10-02 2.3.7 | 2008-03-11 2.4.5 | 2008-03-11 2.5.2 | 2008-02-21 2.5.1 | 2007-04-19 2.3.6 | 2006-11-01 2.4.4 | 2006-10-18 2.5.0 | 2006-09-19 2.4.3 | 2006-04-15 2.4.2 | 2005-09-27 2.4.1 | 2005-03-30 2.3.5 | 2005-02-08 2.4.0 | 2004-11-30 2.3.4 | 2004-05-27 2.3.3 | 2003-12-19 2.3.2 | 2003-10-03 2.3.1 | 2003-09-23 2.3.0 | 2003-07-29 2.2.3 | 2003-05-30 2.2.2 | 2002-10-14 2.2.1 | 2002-04-10 2.1.3 | 2002-04-09 2.2.0 | 2001-12-21 2.0.1 | 2001-06-22 3.4.4 3.5.1 2.7.11 3.5.0 2.7.10 3.4.3 2.7.9 3.4.2 3.3.6 3.2.6 2.7.8 2.7.7 3.4.1 3.4.0 3.3.5 3.3.4 3.3.3 2.7.6 2.6.9 3.3.2 3.2.5 2.7.5 3.3.1 2.7.4 3.2.4 3.3.0 3.2.3 2.6.8 2.7.3 3.1.5 3.2.2 3.2.1 3.1.4 2.7.2 2.6.7 2.5.6 3.2.0 3.1.3 2.7.1 2.6.6 2.7.0 3.1.2 2.6.5 2.5.5 2.6.4 2.6.3 3.1.1 3.1.0 2.6.2 3.0.1 2.5.4 2.5.3 2.4.6 2.6.1 3.0.0 2.6.0 2.3.7 2.4.5 2.5.2 2.5.1 2.3.6 2.4.4 2.5.0 2.4.3 2.4.2 2.4.1 2.3.5 2.4.0 2.3.4 2.3.3 2.3.2 2.3.1 2.3.0 2.2.3 2.2.2 2.2.1 2.1.3 2.2.0 2.0.1
+python allows you to assign new slices to replace old slices of a list in a single operation.
+matplotlib is a mathematical plotting library for python that provides a variety of different plotting functionality. the matplotlib documentation can be found here with the so docs being available here matplotlib provides two distinct methods for plotting though they are interchangable for the most part - firstly matplotlib provides the pyplot interface direct and simple-to-use interface that allows plotting of complex graphs in a matlab-like style. - secondly matplotlib allows the user to control the different aspects axes lines ticks etc directly using an object-based system.
+in python we can check the datatype of an object using type .
+data visualization with python.
+a module is a file containing python definitions and statements.
+function is a piece of code which executes some logic.
+install the latest version of python 2 or python 3. downloads python 2.x is legacy python 3.x is the present and future of the language python 3 verify that you have python 3 installed by running.
+python 3 receives new development and new features.
+if you want to specify an encoding you simply add the encoding parameter to the open function with open my_file.txt w encoding utf-8 as f f.write utf-8 text.
+tuples are commonly used for small collections of values that will not need to change such as an ip address and port
+tuples are represented with parentheses instead of square brackets ip_address 10.20.30.40 8080 the same indexing rules for lists also apply to tuples
+tuples can also be nested and the values can be any valid python valid. dictionaries a dictionary in python is a collection of key-value pairs
+the dictionary is surrounded by curly braces.
+python logo python python is a high-level dynamic interpreted programming language.
+python 3.6 introduces literal format strings where appending f to the beginning of a string literal effectively applies .
+python 3.6 introduces literal format strings where appending f to the beginning of a string literal effectively applies .
+in python a list is merely a ordered collection of valid python values.
+python 3.6 introduces __init_subclass__ which allows a class to partake in the creation of its subclass
+lists there are a number of collection types in python.
+mapping is any dictionary-like object with keys that match with the template placeholders
+
+2.比较：
+in most cases a comprehension or generator expression is more readable more powerful and more efficient than filter or ifilter
+sometimes it will be better to use set tuple or dictionary list is the name given in python to dynamic arrays similar to from c++ or java
+while linux systems do indeed use utf-8 as default this is not necessarily true for mac and windows
+when designing your architecture consider that many things which can be accomplished with metaclasses can also be accomplished using more simple semantics traditional inheritance is often more than enough
+
+if it makes more sense to look up items by an index number consider using a list instead
+sets are mutable and thus cannot be hashed so you cannot use them as dictionary keys or put them in other sets or anywhere else that requires hashable types
+python 2.7 is backwards-compatible with most earlier versions of python and can run python code from most 1.x and 2.x versions of python unchanged
+over the time between the initial release of python 3.0 and the current version some features of python 3 were back-ported into python 2.6 and other parts of python 3 were extended to have syntax compatible with python 2
+the important difference is that tuples are immutable and are hashable so they can be used in sets and maps
+the act of performing a garbage collection on the third generation or mature list is called full garbage collection
+compared to lists deque s allow push and pop operations with constant time complexity from both ends
+in cpython before version 3.2 the running thread would check after a certain number of python instructions to see if other code wanted the lock that is it released the lock and then requested it again
+so encourage similarity between those different api s pep 249 has been introduced
+the capitalization of the tkinter module is different between python 2 and 3
+--------------------------------------------------------------
+in python 2 print is a statement print hello world whilst in python 3 it is a function print hello world note for backwards compatibility print as a function is also available in python 2.7 onwards
+if the value are to be changed the same rules as for arg1 either positional or keyword and kwarg1 only keyword apply.
+you can instead use a yield fixture to do the same thing with a more human readable execution flow
+this module will answer question such as is it faster to do a list comprehension or use the built-in list when transforming a set into a list
+output simon bought 2 candy for 8 dollar templates support -based substitutions instead of -based substitution
+
+
+3.解释关系：
+string objects are immutable meaning that they can t be modified in place the way a list can
+not all elements of the xml input will end up as elements of the parsed tree
+the 2to3 tool is a python program that converts python 2.x code to python 3.x code see also the python documentation
+in particular virtual environments allow you to manage dependencies without requiring root access install different versions of the same dependency for instance when working on different projects with varying requirements work with different python versions
+in python one can use lists as stacks with append as push and pop as pop operations
+the python s deque data structure can also be used as a stack
+handshake process client the first task is to create public and private key
+key is derived from from crypto.publickey import rsa which will create a private key size of 1024 by generating random characters
+communication process for communication process we have to use the session key from both side as the key for idea encryption mode_ctr
+the choice of which database package will be used such as dbm.ndbm or dbm.gnu depends on which interface is available
+currently there are two major release branches of python which have some significant differences
+avoiding the cross-platform encoding hell when using python s built-in open it is best-practice to always pass the encoding argument if you intend your code to be run cross-platform. the reason for this is that a system s default encoding differs from platform to platform
+--------------------------------------------
+create a file hello.py . if you are using python 2.x paste the following code into the file print hello world if you are using python 3.x use the following code instead print hello world switch to the directory containing the file hello.py and run
+each item is separated by a comma and you can access the key or item name of each item to find its value
+the only real difference is that instead of using return we use a yield at the part of the fixture where the setup is done and control should go to a test function then add all the cleanup code after the yield
+not all implementations of python use a gil
+print row values returned by select query to fetch single matching fetchone method print c.fetchone for multiple rows use fetchall method error handling can be done using sqlite3.error built in function
+the grid manager places widgets into a grid similar to a dynamically resizing spreadsheet
+install the package you can do anything if your work is related with sql expressions just pass this expressions to the execute method crud operations
+the most interesting property of a heap is that its smallest element is always the first element
+
+
+
+
+4.陈述：
+dynamically typed every variable in python can reference any type of data
+a single expression may evaluate to data of different types at different times
+a string made out of digits will never be treated as a number unless you convert it explicitly beginner friendly python s syntax and structure are very intuitive
+it has a large comprehensive standard library and many easy-to-install 3rd party libraries
+the official python documentation is also a comprehensive and useful resource containing documentation for all versions of python as well as tutorials to help get you started
+accessing elements is done in constant time and is very fast
+appending elements to the end of the list is amortized constant time but once in a while it might involve allocation and copying of the whole list
+hence it is wise to always sepcify an encoding to make sure the strings you re working with are encoded as what you think they are ensuring cross-platform compatiblity
+custom de- serialisation there are various hooks which allow you to handle data that needs to be represented differently
+class decorators can mix-in functionality into a classes on a ad-hoc approach
+python provides both builtin methods and external libraries for creating modifying parsing and manipulating dates and times
+in general mutable types such as list or set are not hashable and cannot be put in a set
+there are three other types available in the collections module namely userdict userlist userstring they each act as a wrapper around the tied object userdict acts as a wrapper around a dict object
+in each case the class simulates its named type
+on linux python will automatically choose an available c compiler on your system
+caching data is very useful
+at its core python s garbage collector as of 3.5 is a simple reference counting implementation
+one common misunderstanding about how python memory management works is that the del keyword frees objects memory
+there are 3 generations by default in python three linked lists of objects the first list generation 0 contains all new objects
+if a gc cycle happens and the objects are not collected they get moved to the second list generation 1 and if a gc cycle happens on the second list and they are still not collected they get moved to the third list generation 2
+theoretically at the end of a gc cycle this count for the first two generations anyways should always be 0
+the gil has been around in cpython since the inception of python threads in 1992
+benefits of the gil for interpreters that use the gil the gil is systemic
+in python 2 when a property raise a error hasattr will ignore this property return false .
+phone_tel jon skeet 1234567 me 1204752 you can hold data in dictionaries where each item is a variable and its value seen after the colon
+-------------------------
+many programming languages have the concept of the lambda 1 function.
+python is sensitive to indentation.
+python allows you to run individual statements as well as large code files.
+the python language is defined by its most common interpreter the cpython interpreter 1
+if the value are to be changed the same rules as for arg1 either positional or keyword and kwarg1 only keyword apply.
+in python 2 when a property raise a error hasattr will ignore this property return false .
+python allows you to assign new slices to replace old slices of a list in a single operation.
+python has ternary expressions conditional expressions starting by version 2.5.
+python allows you to run individual statements as well as large code files.
+in order to create a random user password we can use the symbols provided in the string module.
+parentheses are only needed for empty tuples or when used in a function call
+the python special variable __name__ is set to the name of the containing module
+note in python 2 make sure that your class inherits from object making it a new-style class in order for all features of properties to be available
+there a few things to note the names args and kwargs are used by convention they are not a part of the language specification
+keyword-only parameter lists are only available in python 3
+__del__ is called any time a python object is destroyed
+many of the methods in hashlib will require you to pass values interpretable as buffers of bytes rather than strings
+doesn t support pythonic data types keys in dictionaries must not be other than string data types
+image processing libraries and numpy number crunching operations release the gil before doing their processing
+in cpython all of garbarge collection is tied to the gil
+curses is a basic terminal or character display handling module from python
+python has the syntactical requirement that code blocks after if except def class etc. cannot be empty
+the official python documentation is also a comprehensive and useful resource containing documentation for all versions of python as well as tutorials to help get you started
+list comprehensions can use nested for loops
+
+if you add a function to the fixture and register it as a finalizer the code in the finalizer function will get called after the test using the fixture is done
+if the scope of the fixture is larger than a single function like module or session the finalizer will be executed after all the tests in scope are completed so after the module is done running or at the end of the entire test running session
+using the finalizer function inside a function can be a bit hard to understand at first glance especially when you have more complicated fixtures
+the only real difference is that instead of using return we use a yield at the part of the fixture where the setup is done and control should go to a test function then add all the cleanup code after the yield
+we also decorate it as a yield_fixture so that py.test knows how to handle it
+for more information see the official py.test fixture documentation and the official yield fixture documentation
+first and foremost you should be able to find the bottleneck of your script and note that no optimization can compensate for a poor choice in data structure or a flaw in your algorithm design
+secondly do not try to optimize too early in your coding process at the expense of readability design quality
+donald knuth made the following statement on optimization we should forget about small efficiencies say about 97 of the time premature optimization is the root of all evil
+yet we should not pass up our opportunities in that critical 3 to profile your code you have several tools cprofile or the slower profile from the standard library line_profiler and timeit
+
+
+
+
+
+
+
+
+
+陈述：
+importing a module will make python evaluate all top-level code in this module so it learns all the functions classes and variables that the module contains
+the multiprocessing module is recommended if you wish to parallelise cpu-bound tasks
+by using a ratio we achieve amortized linear performance in the total number of objects
+each time we add a new object to the generation we increment this count and any time we move an object to another generation or dealloc it we decrement the count
+note that even if an object is not part of a circular data structure it could revive itself in its own __del__ method
+python does have a check for this and will stop gcing if an objects refcount has increased after its __del__ method has been called
+cpython deals with this is by sticking those un-gc-able objects anything with some form of circular reference and a __del__ method onto a global list of uncollectable garbage and then leaving it there for all eternity
+if you have a string you can convert it to a byte buffer by prepending the character b to the start of the string
+great way for serializing pythonic tuples functions classes keys in dictionaries can be of any data type
+note python-3 only in order to strictly differentiate between this and the intentional no-op in the previous example. for example if i write a model in broad strokes i might write def update_agent agent .
+different ways to create subcommands like in hg or svn with the command line interface shown in the help message
+for reducing we can use normal python built in function string value value
+instead of using lambda we could use counter.util which generates random value for counter
+python interpreter python.exe runs the python script that reads json string from a temporary text file and backs-out input arguments filename sys.argv 1 with open filename as data_file input_args json.loads data_file.read x y float input_args.get key for key in x y python script is executed and output dictionary is serialized into json string and printed to the command window print json.dumps sum x + y subtract x - y read output json string from c application using streamreader mystreamreader process.standardoutput outputstring mystreamreader.readline
+the operator builtin library provides very efficient functions if the input implements implement arithmetic operators __add__ __mul__ etc. product of all elements in the sequence import operator from functools import reduce reduce operator.mul list range 1 10 362880 ------- sum of all elements in the sequence although possible the sum of all elements in a sequence can be calculated using operator.add reduce operator.add list range 1 100 4950 you should use the faster sum sum -function if your sequence contains only numerical elements sum list range 1 100 4950 or string.join str.join if you want to concatenate strings .join a b c abc
+phone_tel jon skeet 1234567 me 1204752 you can hold data in dictionaries where each item is a variable and its value seen after the colon
+
+
+a single star may be used instead of to force values to be keyword arguments without providing a variadic parameter list
+pickle and security the pickle module is not secure
+cross language support is missing it is not safe for loading arbitrary data
+the python developers made sure that the api between threading and multiprocessing is similar so that switching between the two variants is easier for programmers
+the latest version of amqpstorm is available at pypi or you can install it using pip pip install amqpstorm
+from wikipedia in computer science a stack is an abstract data type that serves as a collection of elements with two principal operations push which adds an element to the collection and pop which removes the most recently added element that was not yet removed
+python interpreters written with a gil prevent multiple native threads from executing python bytecodes at once
+in some cases style guides such as google style guide ones or documentation rendering third-parties such as sphinx may detail additional conventions for docstrings
+but sometimes an empty code block is useful in itself
+an empty class block can definine a new different class such as exception that can be caught
+if an iterator does all the heavy lifting an empty for loop to just run the iterator can be useful
+in python values are generally passed by reference which can cause troubles with lists being modified when you try to assign multiple names to them
+if you want to check that a string contains only a certain set of characters in this case a-z a-z and 0-9 you can do so like this import re def is_allowed string characherregex re.compile r a-za-z0-9. 
+
+
+
+
+the pack manager places widgets into one of 4 sides
+place the most common keyword arguments for widget.place are as follows x the absolute x-coordinate of the widget y the absolute y-coordinate of the widget height the absolute height of the widget width the absolute width of the widget a code example using place pack widget.pack can take the following keyword arguments expand whether or not to fill space left by parent fill whether to expand to fill all space none default x y or both side the side to pack against top default bottom left or right grid the most commonly used keyword arguments of widget.grid are as follows row the row of the widget default smallest unoccupied rowspan the number of colums a widget spans default 1 column the column of the widget default 0 columnspan the number of columns a widget spans default 1 sticky where to place widget if the grid cell is larger than it combination of n ne e se s sw w nw the rows and columns are zero indexed
+rows increase going down and columns increase going right
+a code example using grid never mix pack and grid within the same frame
+doing so will lead to application deadlock
+the sqlite3 module was written by gerhard häring
+to use the module you must first create a connection object that represents the database
+here the data will be stored in the example.db file you can also supply the special name memory to create a database in ram
+once you have a connection you can create a cursor object and call its execute method to perform sql commands
+objects like numbers lists dictionaries nested structures and class instance objects live in your computer s memory and are lost as soon as the script ends
+pickle stores data persistently in separate file
+pickled representation of an object is always a bytes object in all cases so one must open files in wb to store data and rb to load data from pickle
+the data may may be off any kind for example store data load data the following types can be pickled none true and false integers floating point numbers complex numbers strings bytes bytearrays tuples lists sets and dictionaries containing only picklable objects functions defined at the top level of a module using def not lambda built-in functions defined at the top level of a module classes that are defined at the top level of a module instances of such classes whose dict or the result of calling getstate
+install the package you can do anything if your work is related with sql expressions just pass this expressions to the execute method crud operations
+for with statement calling stored procedure error handling or more example check pymssql.org
+the example below contains the equivalent of above here wrapper will initialize curses create stdscr a windowobject and pass both stdscr and any further arguments to func
+
+
+
+
+profile def slow_function a b c ... the default behavior of kernprof is to put the results into a binary file script_to_profile.py.lprof
+you can tell kernprof to immediately view the formatted results at the terminal with the -v --view option
+otherwise you can view the results later like so finally timeit provides a simple way to test one liners or small expression both from the command line and the python shell
+substitute mapping keywords performs template substitution returning a new string
+keyword arguments can also be used as placeholders
+class compileerror exception pass
+to find the largest items in a collection heapq module has a function called nlargest we pass it two arguments the first one is the number of items that we want to retrieve the second one is the collection name similarly to find the smallest items in a collection we use nsmallest function both nlargest and nsmallest functions take an optional argument key parameter for complicated data structures
+the following example shows the use of age property to retrieve the oldest and the youngest people from people dictionary
+tkinter is a gui toolkit that provides a wrapper around the tk tcl gui library and is included with python
+the following code creates a new window using tkinter and places some text in the window body
+note in python 2 the capitalization may be slightly different see remarks section below
+
+
+7：问句：
+so the generational garbage collection speeds things up tremdously by not requiring that we scan over objects that aren t likely to need gc all the time but how does it help us break cyclic references
+why would you ever want to tell the interpreter to explicitly do nothing
